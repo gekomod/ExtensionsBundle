@@ -6,7 +6,8 @@
         "Extensions",
         "Composer",
         "Install",
-        "Sonata"
+        "Sonata",
+        "Admin"
     ],
     "homepage": "https://webpi.pl",
     "license": "MIT",
