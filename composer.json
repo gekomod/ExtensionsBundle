@@ -1,0 +1,36 @@
+{
+    "name": "gekomod/extensions-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Gekomod/ExtensionsBundle",
+    "keywords": [
+        "Extensions",
+        "Composer",
+        "Install",
+        "Sonata"
+    ],
+    "homepage": "https://webpi.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarek",
+            "email": "admin@webpi.pl",
+            "homepage": "https://webpi.pl"
+        },
+        {
+            "name": "Webpi.pl",
+            "homepage": "https://github.com/gekomod/settingsbundle/contributors"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "knplabs/packagist-api": "^1.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Gekomod\\SettingsBundle\\": "/"
+        }
+    }
+}

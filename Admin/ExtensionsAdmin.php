@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Application\ExtensionsBundle\Admin;
+namespace Gekomod\ExtensionsBundle\Admin;
 
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Route\RouteCollection;

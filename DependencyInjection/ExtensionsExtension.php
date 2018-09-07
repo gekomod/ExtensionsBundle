@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Application\ExtensionsBundle\DependencyInjection;
+namespace Gekomod\ExtensionsBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

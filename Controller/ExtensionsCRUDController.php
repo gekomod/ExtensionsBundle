@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Application\ExtensionsBundle\Controller;
+namespace Gekomod\ExtensionsBundle\Controller;
 
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Routing\Annotation\RouteCollection;
