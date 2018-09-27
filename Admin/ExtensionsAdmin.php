@@ -12,9 +12,9 @@ class ExtensionsAdmin extends AbstractAdmin {
     protected function configureRoutes(RouteCollection $collection)
     {
         $collection->clearExcept(['list']);
-        $collection->add('install', 'install/{name}', [], [], [], '', ['http'], ['GET']);
-        $collection->add('uninstall', 'uninstall/{name}', [], [], [], '', ['http'], ['GET']);
-        $collection->add('upgrade', 'upgrade/{name}', [], [], [], '', ['http'], ['GET']);
-        $collection->add('search', 'search/{name}', [], [], [], '', ['http'], ['GET']);
+        $collection->add('install', 'install/{name}', [], [], [], '', ['http','https'], ['GET']);
+        $collection->add('uninstall', 'uninstall/{name}', [], [], [], '', ['http','https'], ['GET']);
+        $collection->add('upgrade', 'upgrade/{name}', [], [], [], '', ['http','https'], ['GET']);
+        $collection->add('search', 'search/{name}', [], [], [], '', ['http','https'], ['GET']);
     }
 }
